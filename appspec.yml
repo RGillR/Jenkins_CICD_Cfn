@@ -10,7 +10,7 @@ hooks:
       runas: root
   ApplicationStart:
     - location: scripts/start_flask.sh
-      timeout: 300
+      timeout: 200
       runas: root
   ApplicationStop:
     - location: scripts/stop_flask1.sh
